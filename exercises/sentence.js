@@ -7,7 +7,15 @@
  */
 
 // Your code:
-
+function sentence(array) {
+    let sentence = ""
+    for (let i = 0; i < array.length; i++) {
+        const word =`${array[i]} ` ;
+        sentence = sentence.concat(word)
+    }
+    
+    return sentence.slice(0, (sentence.length - 1))
+}
 //* Begin of tests
 const assert = require('assert');
 

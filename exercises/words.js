@@ -7,6 +7,10 @@
  */
 
 // Your code:
+function words(string) {
+    let array = string.split(' ')
+    return array
+}
 
 //* Begin of tests
 const assert = require('assert');

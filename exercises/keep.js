@@ -13,7 +13,15 @@
  */
 
 // Your code:
-
+function keepFirst(string) {
+    return string.charAt(0, 1)
+}
+function keepLast(string) {
+    return string.charAt(-2, -1)
+}
+function keepFirstLast(string) {
+    return string.charAt(2, 4)
+}
 //* Begin of tests
 const assert = require('assert');
 

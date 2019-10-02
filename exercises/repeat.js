@@ -8,7 +8,14 @@
  */
 
 // Your code:
-
+function repeat(param1, param2) {
+    let string = ""
+    for (let i = 0; i < param2; i++) {
+        const word = `${param1}`
+        string = string.concat(word)
+    }
+    return string
+}
 //* Begin of tests
 const assert = require('assert');
 
